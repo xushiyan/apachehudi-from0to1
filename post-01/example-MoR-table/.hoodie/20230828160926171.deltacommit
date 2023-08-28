@@ -1,0 +1,117 @@
+{
+  "partitionToWriteStats" : {
+    "americas/brazil/sao_paulo" : [ {
+      "fileId" : "1419a23b-5ecd-46e6-b96c-07a395c8029a-0",
+      "path" : "americas/brazil/sao_paulo/.1419a23b-5ecd-46e6-b96c-07a395c8029a-0_20230828160921471.log.1_0-103-148",
+      "cdcStats" : null,
+      "prevCommit" : "20230828160921471",
+      "numWrites" : 2,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 2,
+      "numInserts" : 0,
+      "totalWriteBytes" : 1749,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "americas/brazil/sao_paulo",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 1749,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 1177,
+        "totalCreateTime" : 0
+      },
+      "logVersion" : 1,
+      "logOffset" : 0,
+      "baseFile" : "1419a23b-5ecd-46e6-b96c-07a395c8029a-0_0-81-116_20230828160921471.parquet",
+      "logFiles" : [ ".1419a23b-5ecd-46e6-b96c-07a395c8029a-0_20230828160921471.log.1_0-103-148" ],
+      "recordsStats" : {
+        "val" : null
+      }
+    } ],
+    "americas/united_states/san_francisco" : [ {
+      "fileId" : "44ad01a5-04e0-48ee-8b02-dc81dd6f0aad-0",
+      "path" : "americas/united_states/san_francisco/.44ad01a5-04e0-48ee-8b02-dc81dd6f0aad-0_20230828160921471.log.1_1-103-149",
+      "cdcStats" : null,
+      "prevCommit" : "20230828160921471",
+      "numWrites" : 1,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 1,
+      "numInserts" : 0,
+      "totalWriteBytes" : 1480,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "americas/united_states/san_francisco",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 1480,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 1269,
+        "totalCreateTime" : 0
+      },
+      "logVersion" : 1,
+      "logOffset" : 0,
+      "baseFile" : "44ad01a5-04e0-48ee-8b02-dc81dd6f0aad-0_1-81-117_20230828160921471.parquet",
+      "logFiles" : [ ".44ad01a5-04e0-48ee-8b02-dc81dd6f0aad-0_20230828160921471.log.1_1-103-149" ],
+      "recordsStats" : {
+        "val" : null
+      }
+    } ],
+    "asia/india/chennai" : [ {
+      "fileId" : "d18fe294-abbf-4f2c-8a8b-9f56a6bcd59b-0",
+      "path" : "asia/india/chennai/.d18fe294-abbf-4f2c-8a8b-9f56a6bcd59b-0_20230828160921471.log.1_2-103-150",
+      "cdcStats" : null,
+      "prevCommit" : "20230828160921471",
+      "numWrites" : 3,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 3,
+      "numInserts" : 0,
+      "totalWriteBytes" : 1998,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "asia/india/chennai",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 1998,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 1177,
+        "totalCreateTime" : 0
+      },
+      "logVersion" : 1,
+      "logOffset" : 0,
+      "baseFile" : "d18fe294-abbf-4f2c-8a8b-9f56a6bcd59b-0_2-81-118_20230828160921471.parquet",
+      "logFiles" : [ ".d18fe294-abbf-4f2c-8a8b-9f56a6bcd59b-0_20230828160921471.log.1_2-103-150" ],
+      "recordsStats" : {
+        "val" : null
+      }
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"hudi_trips_mor_record\",\"namespace\":\"hoodie.hudi_trips_mor\",\"fields\":[{\"name\":\"begin_lat\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"begin_lon\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"driver\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"end_lat\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"end_lon\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"fare\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"partitionpath\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"rider\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"ts\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"uuid\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT"
+}

@@ -1,0 +1,96 @@
+{
+  "partitionToWriteStats" : {
+    "americas/brazil/sao_paulo" : [ {
+      "fileId" : "4d9d0bb3-f3db-4a1f-b8b0-a6bd6369bbb5-0",
+      "path" : "americas/brazil/sao_paulo/4d9d0bb3-f3db-4a1f-b8b0-a6bd6369bbb5-0_0-15-23_20230828155154526.parquet",
+      "cdcStats" : null,
+      "prevCommit" : "null",
+      "numWrites" : 3,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 3,
+      "totalWriteBytes" : 437854,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "americas/brazil/sao_paulo",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 437854,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 0,
+        "totalCreateTime" : 1575
+      }
+    } ],
+    "americas/united_states/san_francisco" : [ {
+      "fileId" : "3061f983-8a89-42cb-9646-412cab430e4b-0",
+      "path" : "americas/united_states/san_francisco/3061f983-8a89-42cb-9646-412cab430e4b-0_1-15-24_20230828155154526.parquet",
+      "cdcStats" : null,
+      "prevCommit" : "null",
+      "numWrites" : 5,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 5,
+      "totalWriteBytes" : 438205,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "americas/united_states/san_francisco",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 438205,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 0,
+        "totalCreateTime" : 1575
+      }
+    } ],
+    "asia/india/chennai" : [ {
+      "fileId" : "c85bd24c-887d-44f2-9fb7-c948be6b8ec9-0",
+      "path" : "asia/india/chennai/c85bd24c-887d-44f2-9fb7-c948be6b8ec9-0_2-15-25_20230828155154526.parquet",
+      "cdcStats" : null,
+      "prevCommit" : "null",
+      "numWrites" : 2,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 2,
+      "totalWriteBytes" : 437641,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "asia/india/chennai",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 437641,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 0,
+        "totalCreateTime" : 1576
+      }
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"hudi_trips_cow_record\",\"namespace\":\"hoodie.hudi_trips_cow\",\"fields\":[{\"name\":\"begin_lat\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"begin_lon\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"driver\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"end_lat\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"end_lon\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"fare\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"partitionpath\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"rider\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"ts\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"uuid\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT"
+}
